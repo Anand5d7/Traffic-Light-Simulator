@@ -54,11 +54,11 @@ This project is a Traffic Light Simulator built using React. It simulates a traf
   ```
   - Install the dependencies:
   ```bash
-  npm install
+   npm install
   ```
   - Run the development server:
   ```bash
-  npm start
+   npm start
   ```
    - The project will open at http://localhost:3000 in your browser.
 ## Usage
