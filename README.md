@@ -3,7 +3,7 @@
 This project is a Traffic Light Simulator built using React. It simulates a traffic light system with three lights (Green, Yellow, and Red) and includes a pedestrian crossing feature. The pedestrian can request a crossing, and the system will switch the light to Red to allow safe pedestrian crossing. The project also includes state management using useContext and useReducer for handling the traffic light sequence, pedestrian crossing requests, and timers.
 
 ## Features
-# Traffic Light Sequence: Green -> Yellow -> Red -> Green
+ - Traffic Light Sequence: Green -> Yellow -> Red -> Green
  - Green light: 10 seconds
  - Yellow light: 3 seconds
  - Red light: 7 seconds
@@ -11,14 +11,14 @@ This project is a Traffic Light Simulator built using React. It simulates a traf
  - Pedestrian can request crossing at any time.
  - If the button is clicked during Green or Yellow, the system waits until the current sequence finishes before turning Red for pedestrian crossing.
  - After the pedestrian crossing, the light stays Red for an additional 5 seconds.
-- useContext State Management: Manages the traffic light system, pedestrian crossing requests, and timers.
-# Countdown Timer: Shows the remaining time for each light.
+ - useContext State Management: Manages the traffic light system, pedestrian crossing requests, and timers.
+ - Countdown Timer: Shows the remaining time for each light.
 # Bonus Feature (Optional):
  - Emergency Vehicle Override: Override the traffic lights to allow emergency vehicles to pass through.
 ## Technologies Used
-# React: Frontend framework.
-# useContext & useReducer: For managing the traffic light state.
-# CSS: For styling the traffic lights and the pedestrian crossing button.
+ - React: Frontend framework.
+ - useContext & useReducer: For managing the traffic light state.
+ - CSS: For styling the traffic lights and the pedestrian crossing button.
 ## Project Structure
 ```bash
   traffic-light-simulator/
