@@ -1,0 +1,11 @@
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.countdown-timer {
+    margin-top: 10px;
+    font-size: 18px;
+}

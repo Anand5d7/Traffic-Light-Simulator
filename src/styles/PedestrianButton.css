@@ -1,0 +1,14 @@
+.pedestrian-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pedestrian-button:hover {
+    background-color: darkblue;
+}
