@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Traffic Light Simulator with Pedestrian Crossing 🚦
+## Description
+This project is a Traffic Light Simulator built using React. It simulates a traffic light system with three lights (Green, Yellow, and Red) and includes a pedestrian crossing feature. The pedestrian can request a crossing, and the system will switch the light to Red to allow safe pedestrian crossing. The project also includes state management using useContext and useReducer for handling the traffic light sequence, pedestrian crossing requests, and timers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+# Traffic Light Sequence: Green -> Yellow -> Red -> Green
+ - Green light: 10 seconds
+ - Yellow light: 3 seconds
+ - Red light: 7 seconds
+# Pedestrian Crossing:
+ - Pedestrian can request crossing at any time.
+ - If the button is clicked during Green or Yellow, the system waits until the current sequence finishes before turning Red for pedestrian crossing.
+ - After the pedestrian crossing, the light stays Red for an additional 5 seconds.
+# useContext State Management: Manages the traffic light system, pedestrian crossing requests, and timers.
+# Countdown Timer: Shows the remaining time for each light.
+# Bonus Feature (Optional):
+ - Emergency Vehicle Override: Override the traffic lights to allow emergency vehicles to pass through.
+## Technologies Used
+# React: Frontend framework.
+# useContext & useReducer: For managing the traffic light state.
+# CSS: For styling the traffic lights and the pedestrian crossing button.
+## Project Structure
+```bash
+  traffic-light-simulator/
+│
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   │   ├── TrafficLight.js
+│   │   ├── Light.js
+│   │   ├── PedestrianButton.js
+│   ├── context/
+│   │   ├── TrafficLightContext.js
+│   │   ├── trafficLightReducer.js
+│   ├── styles/
+│   │   ├── TrafficLight.css
+│   │   ├── Light.css
+│   │   ├── PedestrianButton.css
+│   ├── App.js
+│   ├── index.js
+├── package.json
+├── README.md
+```
+## Installation and Setup
+# To run this project locally, follow these steps:
+ - Clone the repository:
+   ```bash
+   git clone https://github.com/Anand5d7/Traffic-Light-Simulator.git
+  ```
+  - Navigate to the project directory:
+  ```bash
+  cd traffic-light-simulator
+  ```
+  - Install the dependencies:
+  ```bash
+  npm install
+  ```
+  - Run the development server:
+  ```bash
+  npm start
+  ```
+   - The project will open at http://localhost:3000 in your browser.
+## Usage
+  - The traffic light will cycle through Green -> Yellow -> Red.
+  - Click the Pedestrian Button to request a crossing. The system will stop traffic and allow pedestrians to cross.
+  - A countdown timer next to each light shows the remaining time before the light changes.
+## Future Enhancements
+  - Add an Emergency Vehicle Override feature to interrupt the light sequence for emergency vehicles.
+  - Implement sound notifications for visually impaired pedestrians.
+## Live Demo
+You can view a live demo of the application.
+![Traffic -Light-Simulator - Demo](https://github.com/user-attachments/assets/845abcde-0d0f-4bca-98f6-43861126a71d)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+https://traffic-light-simulator-three.vercel.app/
+## License
+  - This project is licensed under the MIT License - see the LICENSE file for details.
+## Acknowledgment
+# I would like to express my gratitude to the following:
+  - Levon Techno Solution Pvt Ltd, Bengaluru for the opportunity to work on this assignment.
+  - The React and JavaScript communities for providing excellent learning resources.
+  - Special thanks to all those who supported and encouraged me during the development of this project.
