@@ -70,7 +70,11 @@ This project is a Traffic Light Simulator built using React. It simulates a traf
   - Implement sound notifications for visually impaired pedestrians.
 ## Live Demo
 You can view a live demo of the application.
-![Traffic -Light-Simulator - Demo](https://github.com/user-attachments/assets/845abcde-0d0f-4bca-98f6-43861126a71d)
+
+
+https://github.com/user-attachments/assets/727397d4-0206-4081-adad-630ddd609904
+
+
 
 ## Deployment
 https://traffic-light-simulator-three.vercel.app/
