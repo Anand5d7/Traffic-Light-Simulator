@@ -49,6 +49,7 @@ This project is a Traffic Light Simulator built using React. It simulates a traf
    git clone https://github.com/Anand5d7/Traffic-Light-Simulator.git
   ```
  - Navigate to the project directory:
+
   ```bash
    cd traffic-light-simulator
   ```
