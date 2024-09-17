@@ -48,9 +48,9 @@ This project is a Traffic Light Simulator built using React. It simulates a traf
    ```bash
    git clone https://github.com/Anand5d7/Traffic-Light-Simulator.git
   ```
-  - Navigate to the project directory:
+ - Navigate to the project directory:
   ```bash
-  cd traffic-light-simulator
+   cd traffic-light-simulator
   ```
   - Install the dependencies:
   ```bash
@@ -81,7 +81,7 @@ https://traffic-light-simulator-three.vercel.app/
 ## License
   - This project is licensed under the MIT License - see the LICENSE file for details.
 ## Acknowledgment
-# I would like to express my gratitude to the following:
+ - I would like to express my gratitude to the following:
   - Levon Techno Solution Pvt Ltd, Bengaluru for the opportunity to work on this assignment.
   - The React and JavaScript communities for providing excellent learning resources.
   - Special thanks to all those who supported and encouraged me during the development of this project.
